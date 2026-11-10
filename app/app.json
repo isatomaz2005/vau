@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Vau",
+    "slug": "vau",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B4F6C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O Vau usa sua localização para mostrar alagamentos perto de você e marcar onde está o alagamento que você relata."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "O Vau usa a câmera para você fotografar o alagamento, se quiser."
+        }
+      ]
+    ],
+    "scheme": "vau"
+  }
+}
