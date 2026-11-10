@@ -4,3 +4,7 @@ node_modules/
 dist/
 .expo/
 .DS_Store
+
+.vercel
+.env*
+!.env.example

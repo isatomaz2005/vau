@@ -107,6 +107,6 @@ As duas partes usam o mesmo backend no **Supabase** (banco Postgres, tempo real,
 
 ## 8. Links
 
-- Repositório GitHub: **[PREENCHER]**
-- Plataforma web: **[PREENCHER]**
+- Repositório GitHub: https://github.com/isatomaz2005/vau
+- Plataforma web: https://vau-kappa.vercel.app
 - Vídeo-pitch: **[PREENCHER]**

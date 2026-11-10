@@ -1,0 +1,7 @@
+app/
+docs/
+supabase/
+**/node_modules
+web/dist
+.env
+**/.env

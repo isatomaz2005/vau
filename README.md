@@ -5,7 +5,7 @@
 > Projeto da Global Solution FIAP: CitizenTech.
 > Vau é o trecho raso de um rio, o lugar por onde dá para atravessar a pé.
 
-- **Plataforma web:** <!-- TODO: link da Vercel -->
+- **Plataforma web:** https://vau-kappa.vercel.app
 - **Vídeo-pitch:** <!-- TODO: link do YouTube -->
 - **App:** instruções abaixo (Expo Go)
 
@@ -70,7 +70,7 @@ npm install
 npm run dev             # http://localhost:5173
 ```
 
-**Deploy na Vercel:** importe o repositório, defina *Root Directory* = `web`, cadastre `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` e publique. O `vercel.json` já cuida das rotas.
+**Deploy na Vercel:** importe o repositório sem mudar a pasta raiz (o `vercel.json` da raiz já constrói a pasta `web/`, que importa `shared/`), cadastre `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` e publique.
 
 ### 3. App
 
